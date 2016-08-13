@@ -1,0 +1,19 @@
+<div id="ub_ads">
+        <ul>
+            <li class="g_ad">
+            <script type="text/javascript"><!--
+            google_ad_client = "pub-6059078294557835";
+            /* 468x60, ÀÛ¼ºµÊ 09. 5. 24 */
+            google_ad_slot = "9831301501";
+            google_ad_width = 468;
+            google_ad_height = 60;
+            //-->
+            </script>
+            <script type="text/javascript"
+                src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+            </script>            
+            </li>
+            <li class="ad_bn"><a href="#"><img src="images/bn_ads.jpg" 
+                width="150" height="53" alt="±¤°íÁß" /></a></li>
+        </ul>
+</div><!--div id="ub_ads"-->

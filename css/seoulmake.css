@@ -1,0 +1,82 @@
+﻿*{margin: 0; border: 0; padding: 0; font-family:'Nanum Gothic','나눔고딕','돋움',Dotum,'굴림',Gulim,Tahoma, Geneva, sans-serif,verdana;}
+
+
+#lay_out{background-image: url('../seoulmake16.png'); background-repeat: no-repeat; width: 1600px;  margin: 0 auto;}
+#page_top{width: 1600px; height: 108px;}
+	#top_main_login{width: 1600px; height: 46.5px;  background-color: #FFBFCF; }
+		#top_main_login a{text-decoration: none; line-height: 46.5px; font-size: 12px;}
+		#top_main_login a:first-child{margin-left: 188px;}
+	#top_main_menu{width: 1600px; height: 61.5px; /* background-color: #0d3f6b;  */ }
+		.logoimg{margin-left: 190px;}
+		.logo{width: 153px;}
+		#Mmenu{line-height: 61.5px; text-decoration: none;}
+		.MB1{font-size: 20px; font-weight: bold; color: #000000; letter-spacing: -4px; background-color; #FFEFBF; padding: 10 40 10 45px; }
+		.MB2{font-size: 20px; font-weight: bold; color: #000000; letter-spacing: -3px; background-color; #FFEFBF; padding: 10 40 10 35px; }
+		.MB3{font-size: 20px; font-weight: bold; color: #000000; letter-spacing: -3px; background-color; #FFEFBF; padding: 10 40 10 25px;}
+		.MB4{font-size: 20px; font-weight: bold; color: #000000; letter-spacing: -4px; background-color; #FFEFBF; padding: 10 40 10 5px;}
+		.MB5{font-size: 20px; font-weight: bold; color: #000000; letter-spacing: -4px; background-color; #FFEFBF; padding: 10 40 10 -3px;}
+		.MB6{font-size: 20px; font-weight: bold; color: #000000; letter-spacing: -4px; background-color; #FFEFBF; padding: 10 40 10 0px;}
+		
+		.mainbox1{width: 170px; height: 61.5px; margin: 0 9px;}
+		.mainbox2{width: 170px; height: 61.5px; margin: 0 9px;}
+		.mainbox3{width: 170px; height: 61.5px; margin: 0 9px;}
+		.mainbox4{width: 170px; height: 61.5px; margin: 0 9px;}
+		.mainbox5{width: 170px; height: 61.5px; margin: 0 9px;}
+		.mainbox6{width: 170px; height: 61.5px; margin: 0 9px;} 
+
+#page_center{width: 1600px; height: 1276px;}
+	#center_emptybox1{width: 188px; height: 1276px; background-color:#333333;}
+	#center_menu{width: 1224px; height: 610.5px; margin: 0 auto; padding: 0px; border: 0;}
+		.CM_box1{width: 204px; height: 203px;}
+		.CM_box2{width: 204px; height: 203px;}
+			.box2_1{width: 612px; height: 203px; margin-top:-3px;}
+			.box2_2{width: 612px; height: 203px; margin-top:-5px;}
+			.box2_3{width: 612px; height: 203px; margin-top:-5px;}
+	
+		
+	#center_content{width: 1225px; height: 664.5px; /*  background-color: #BFCFFF; */ margin: 0 auto;}
+		.CCline{display: inline; width: 1224px; height: 348px; }
+			.CC_box1{width: 1224px; height: 38px; vertical-align: bottom;}
+				.CC_circle1{width: 11px; height: 11px; border-radius: 20px; background-color: #333333; margin-top:20.5px; margin-right: 14px; opacity: 0.2;}
+					.CC_circle1_1{width: 10px; height: 10px; borderradius: 2px; background-color: #8C0046; }
+				.CC_circle2{width: 11px; height: 11px; border-radius: 20px; background-color: #333333; margin-top:20.5px; margin-right: 10px;  opacity: 0.2; }
+				.CC_circle3{width: 11px; height: 11px; border-radius: 20px; background-color: #333333; margin-top:20.5px; margin-right: 9px; opacity: 0.2;}
+				.CC_circle4{width: 11px; height: 11px; border-radius: 20px; background-color: #333333; margin-top:20.5px; margin-right: 10px; opacity: 0.2;}
+				.CC_circle5{width: 11px; height: 11px; border-radius: 20px; background-color: #333333; margin-top:20.5px; margin-right: 9px; opacity: 0.2;}
+				.CC_circle6{width: 40px; height: 12px; border-radius: 4px; background-color: #333333; margin-top:20.5px; margin-right: 7px; opacity: 0.2;}
+				.CC_circle7{width: 11px; height: 11px; border-radius: 20px; background-color: #333333; margin-top:20.5px; margin-right: 7px; opacity: 0.2;}
+			.CC_box2{width: 816px; height: 133px; background-color: #D93600;}
+			.CC_box3{width: 410px; height: 177px; background-color: #00A3D9;}
+			.CC_box4{width: 406px; height: 177px; background-color: #2D00B3;}
+			.CC_box5{width: 408px; height: 310px; background-color: #FF0040; margin-top: -133px;}
+		.CC2line{display: inline; width: 1224px; height: 316.5px;}
+			.CC_box6{width: 1224px; height: 62px; background-color: #99E5FF; }
+			.CC_box7{width: 1224px; height: 203px; background-color: #FF99FF;}
+				.box7_1{width: 427px; height: 203px; background-color: #575050; margin: 0 auto;}
+			.CC_box8{width: 1224px; height: 51.5px; background-color: #8C8C00;}
+	#center_emptybox2{width: 188px; height: 1276px;  background-color:#333333;}
+#page_bottom{width: 1600px; height: 428px;  background-color: #0d3f6b; position: none;}
+	#bottom_menu{width: 1600px; height: 254px;  }
+		#bottom_menu ul{list-style: none; margin-top: 20px;}
+		#bottom_menu a{text-decoration: none; font-weight: bold; color: #ffffff;}
+
+		.bottom_box1{width: 188px; height: 254px; }
+		.bottom_box2{width: 204px; height: 270px; background-color: #0d3f6b; line-height: 40px;}
+		.bottom_box3{width: 204px; height: 340px; background-color: #0d3f6b; line-height: 45px;}
+		.bottom_box4{width: 204px; height: 340px; background-color: #0d3f6b; line-height: 45px;}
+		.bottom_box5{width: 204px; height: 300px; background-color: #0d3f6b; line-height: 45px;}
+		.bottom_box6{width: 204px; height: 340px; background-color: #0d3f6b; line-height: 45px;}
+		.bottom_box7{width: 204px; height: 340px; background-color: #0d3f6b; line-height: 45px;}
+		.bottom_boxs8{width: 188px; height: 254px;}
+	#bottom_input{width: 1600px; height: 41px; background-color: #CFFFBF;}
+		#go_button{float: right; margin-left: 7px;}
+		#select_box{float: right;}
+	#bottom_logo{width: 1600px; height: 133px; background-color: #B2FF99;}
+		.BL_box1{width: 188px; height: 133px; background-color: #FFFFFF;}
+		.BL_box2{width: 1062px; height: 133px; background-color: #FFFF4C;}
+		.BL_box3{width: 162px; height: 133px; background-color: #8C8C00;}
+		
+
+.fl{float: left;}
+.fr{float: right;}
+.cl{clear: both;}

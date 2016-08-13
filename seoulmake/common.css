@@ -1,0 +1,416 @@
+@charset "utf-8";
+
+/* 컨텐츠 바로가기 */
+#accessibility {}
+#accessibility ul {position:absolute;width:100%;height:0px;left:0px;top:-40px;text-align:center;}
+#accessibility li {width:100%;}
+#accessibility li a {}
+#accessibility li a:hover, #accessibility li a:focus, #accessibility li a:active {position:absolute;width:100%;height:30px;left:0px;top:40px;padding-top:10px;font-size:16px;text-align:center;background:#fff;z-index:99999;}
+
+
+.clearB {clear:both;}
+
+
+.mt_20 {margin-top:-20px;} .mt_30 {margin-top:-30px;}
+.mt5 {margin-top:5px;} .mt10 {margin-top:10px;} .mt15 {margin-top:15px;} .mt20 {margin-top:20px;} .mt25 {margin-top:25px;} 
+.mt30 {margin-top:30px;} .mt32 {margin-top:32px;} .mt35 {margin-top:35px;} .mt40 {margin-top:40px;} .mt45 {margin-top:45px;}  .mt50 {margin-top:50px;} 
+.mt60 {margin-top:60px;} 
+.mt100 {margin-top:100px;}
+.pt5 {padding-top:5px;} .pt10 {padding-top:10px;} .pt15 {padding-top:15px;} .pt20 {padding-top:20px;} .pt25 {padding-top:25px;} 
+.pt30 {padding-top:30px;} .pt32 {padding-top:32px;} .pt34 {padding-top:34px;}.pt35 {padding-top:35px;} .pt40 {padding-top:40px;}
+.pl10{padding-left:10px;} .pl12{padding-left:12px;} .pl13{padding-left:13px;} .pl14{padding-left:14px;} .pl15{padding-left:15px;} 
+.pl20{padding-left:20px;} .pl30{padding-left:30px;} .pl40{padding-left:40px;} .pl50{padding-left:50px;}
+.pr15{padding-right:15px;}
+.mr10{margin-right:10px;} .mr15{margin-right:15px;} .mr30 {margin-right:30px;} .mr60 {margin-right:60px;}
+.mb10{margin-bottom:10px;} .mb20{margin-bottom:20px;} .mb30{margin-bottom:30px;} .mb40{margin-bottom:40px;}
+.mb50{margin-bottom:50px;} .mb70{margin-bottom:70px;} .mb75{margin-bottom:75px;} 
+.mb80{margin-bottom:80px;} .mb90{margin-bottom:90px;} .mb100{margin-bottom:100px;}
+.mg15{margin-left:5px;} 
+
+
+/*align*/
+.alignC {text-align:center;}
+.alignl{text-align:left;}
+.alignr{text-align:right;}
+.alignj{text-align:justify;}
+
+.vam{vertical-align: middle;}
+.vat{vertical-align: top;}
+.vab{vertical-align: bottom;}
+
+
+/*text color*/
+.color01{color:#00549d; font-weight:500;} /*파랑색*/
+.color02{color:#ee1413; font-weight:500;} /*빨간색*/
+.color03{color:#ffde42; font-weight:500;} /*노랑색*/
+.color04{color:#e27d1c; font-weight:500;} /*주황색*/
+.color05{color:#888;font-weight:500;} /*엺은 회색*/
+
+
+/*포인트 텍스트*/
+.point01{color:#e27d1c; font-weight:600;}
+.point02{color:#00549d; font-weight:600;}
+.point03{color:#e27d1c; font-weight:600;}  
+.point04{color:#111; font-weight:600;}
+.point05{color:#ee1413; font-weight:600;}
+.point2015{color:#00549d; font-weight:700;}
+
+/*font size*/
+.fs50{font-size:50px;}
+.fs40{font-size:40px;}
+.fs30{font-size:30px;}
+.fs20{font-size:20px;}
+.fs15{font-size:15px;}
+.fs13{font-size:13px;}
+
+/* width size */
+.w50 {width:50%;}
+
+.fw{font-weight:600 !important; color:#111;}
+
+/*button 공통*/
+
+.btnWrapSec0 {padding-top:30px; text-align:center;}
+.centerBtn {margin:30px 0 40px; text-align:center;} 
+.rightBtn {position:absolute; right:10px; text-align:right;}
+
+
+/*버튼공통 사본발급 신청서, 위임장, 동의서 버튼*/
+.btnGo {height:42px; padding:8px 30px 8px 30px; font-weight:500; color:#fff; line-height:42px; font-size:15px; 
+	    text-decoration:none !important; background:#e27d1c url(../../images/common/btn_down1.gif) no-repeat 30px center;} 
+.btnGo span{padding-left:25px;}
+
+/*사회복지팀 안내, 온라인예약 바로가기 버튼*/
+.btnguid{height:42px; padding:8px 10px 8px 10px; font-weight:500; color:#fff; line-height:42px; font-size:15px; letter-spacing:0.7px;
+		 text-decoration:none !important; background:#e27d1c url(../../images/common/btn_down3.gif) no-repeat right center;}
+.btnguid span{padding-right:20px;}
+
+/*일반봉사자 신청서 다운로드 */
+.application {height:42px; padding:8px 10px 8px 25px; font-weight:500; color:#fff; line-height:42px; font-size:15px;
+		      text-decoration:none !important; background:#e27d1c url(../../images/common/btn_down2.gif) no-repeat 5px center;}
+.application span{padding-left:8px;}
+
+/*증명서 발급안내_ 온라인진위확인_ 확인 취소 버튼*/
+button.btnred {padding:10px 50px; background:#00549d; color:#fff;}
+button.btngray {padding:10px 50px; background:#575757; color:#fff;}
+
+/*로그인버튼*/
+.LgBtn {display:inline-block; width:109px; font-size:15px; line-height:1; color:#fff; background: #006db8 url(../../images/common/btn_LgBtn.gif) no-repeat 0 0;}
+
+/*회원가입하기, 아이디/비번찾기 버튼*/
+.agBtn {display:inline-block; width:159px; height:30px; font-size:13px; line-height:1; color:#fff; /*background: url(../../images/common/btn_id_pwd.gif) no-repeat right center;*/}
+
+
+.btne27 {padding:9px 15px 9px 15px; height:30px; line-height:35px; font-size:15px; font-weight:500; color:#fff; background:#e27d1c;} /*고객의 소리, 진료예약 바로가기*/
+.prevBtn{display:inline-block; padding:10px 30px; background:#00549d; font-size:15px; line-height:1; color:#fff;} /*이전*/
+.nextBtn{display:inline-block; padding:10px 30px; background:#424242; font-size:15px; line-height:1; color:#fff;} /*다음*/
+.blueBtn{display:inline-block; padding:10px 30px; background:#00549d; font-size:15px; line-height:1; color:#fff;} /*가입하기, 목록, 확인*/
+.garyBtn{display:inline-block; padding:10px 30px; background:#424242; font-size:15px; line-height:1; color:#fff;} /*취소하기*/
+.btn00{display:inline-block; padding:10px 30px; background:#00819e; font-size:15px; line-height:1; color:#fff;}
+a.graySmBtn{display:inline-block; padding:8px 10px; background:#555; font-size:12px; line-height:1; color:#fff;} /*아이디중복확인, 우편번호찾기, 새로고침,*/
+a.graySmBtn:hover{text-decoration:none;}
+
+
+/*우편번호찾기 버튼*/
+button.btnPostCode {display:inline-block; padding:0 10px; background:#555; height:28px; font-size:12px; color:#fff; line-height:27px; text-align:center; text-decoration:none !important;}
+button.btnPostCode{width:auto;}
+
+
+
+/* 내용 공통*/
+#mainCont {clear:both;position:relative;width:940px; overflow: hidden;}
+* html #mainCont {/*min-height:400px;*/ height:auto !important;}
+#mainCont * {font-family: 'Nanum Gothic','나눔고딕','돋움' !important;}
+#mainCont .introSec {overflow: hidden; margin-top:30px;}
+#mainCont .introSec ul li {overflow: hidden; padding:0 0 8px 15px;}
+#mainCont .introSec ul li.icon {overflow: hidden; line-height:200%; margin-left:25px; font-size:16px; padding:2px 0 0 15px; background: url(../../images/common/bul_dot.png) 0 16px no-repeat;}
+#mainCont .introSec p.infoTextList {color:#333; font-size:16px; padding-left:15px; margin-bottom:10px;
+			                                    background: url(../../images/common/bul_dot.png) 0 12px no-repeat;}
+		
+/*대제목 공통*/
+h2.tit {font-size:40px; height:40px; margin:0 0 30px 0; letter-spacing:-1pt; font-weight:normal; color:#111;}  /*대제목*/
+
+
+/*중제목 공통*/
+h3.title{font-size:30px; font-weight:400; color:#333; letter-spacing:-1pt; line-height:1;} /*중제목*/
+
+/*소제목 공통*/
+h5.s_title{font-size:22px; font-weight:600; color:#00549d; letter-spacing:-1pt; line-height:1;} /*소제목*/
+h5.s_title01{font-size:22px; font-weight:500; color:#333; letter-spacing:-1pt; line-height:1;}  /*소제목*/
+h5.s_title02{font-size:18px; font-weight:500; color:#111; line-height:1;} 
+
+
+/*대제목 아래 부분에 설명부분 텍스트 공통*/
+p.summary {padding-bottom:20px; font-size:24px; font-weight:400;}
+p.summary span{font-size:30px; color:#00549d; margin-top:40px;}
+p.summary span.fs{font-size:30px; font-weight:500;}	
+p.summary span.fwb1{font-size:20px; color:#333; font-weight:400;}
+p.Enquiries{margin-top:10px; font-weight:bold; color:#00549d; font-size:20px;}  /*문의전화*/
+
+
+		
+/*텝메뉴 공통*/
+.subTap {margin-bottom:20px; width:100%;}
+.subTap ul {overflow:hidden;}
+.subTap li {float:left;margin-right:1px;}
+.subTap li a {display:block;padding:6px 0 4px;color:#fff; 
+			  font-family:'Nanum Gothic','나눔고딕';
+			  font-weight:600;font-size:16px; text-align:center;text-decoration:none;background:#6d6d6d;}
+.subTap li.on a, .subTap li a:hover {background:#00549d url(../../images/common/tab_patten.png) repeat;}
+.subTap ul.tab2 li{width:49.5%}  /*텝메뉴가 2개일때*/
+.subTap ul.tab3 li{width:33.2%}  /*텝메뉴가 3개일때*/
+.subTap ul.tab4 li {width:24.8%}  /*텝메뉴가 4개일때*/
+.subTap ul.tab5 li {width:19.8%}  /*텝메뉴가 5개일때*/
+.subTap ul.tab6 li {width:16.5%}  /*텝메뉴가 6개일때*/
+.subTap ul.tab7 li {width:14.2%}  /*텝메뉴가 7개일때*/
+.subTap ul.tab8 li {width:12.35%}  /*텝메뉴가 8개일때*/
+.subTap ul.w150 li {width:19.8%;}
+
+
+/*일반게시판부분리스트 공통*/
+.bbsTable {}
+.bbsTable table.listTable {width:100%;border-collapse: collapse; border-top:2px solid #00549d; border-bottom:1px solid #636363;}
+.bbsTable table.listTable thead th {height:31px;padding:10px 10px 9px;text-align:center;color:#fff;font-size:13pt; 
+	                                border-right:1px solid #ccc; background:#00549d; font-weight:600;}
+.bbsTable table.listTable thead th:last-child{border-right:none;}
+.bbsTable table.listTable tbody th {height:20px;padding:10px 10px 9px;text-align:center;color:#333;font-size:11pt;font-weight:normal;border-left:none;}
+.bbsTable table.listTable tbody td {height:20px;padding:10px 10px 9px;text-align:center;color:#333;font-size:11pt;border:1px solid #ccc; border-right:none; font-weight:500;}
+.bbsTable table.listTable tbody td:first-child {border-left:none;}
+.bbsTable table.listTable tbody td.left {padding-left:30px; text-align:left;}
+.bbsTable table.listTable tbody td a {font-size:11pt;}
+.bbsTable table.listTable tbody td a:hover{color:#00549d;}
+
+
+
+/*일반게시판 상세페이지 공통*/
+.bbsTable {}
+.bbsTable table.viewTable {width:100%;border-collapse: collapse; border-top:2px solid #00549d; border-bottom:1px solid #636363;}
+.bbsTable table.viewTable thead tr th {padding:14px 0 12px 20px; min-height:20px; font-size:18px; color:#333; font-weight:600; text-align:left; border-bottom:1px solid #ccc;}
+.bbsTable table.viewTable thead tr td.title{padding:14px 0 12px 0; min-height:20px; font-size:18px; color:#111; font-weight:600; text-align:left;}
+.bbsTable table.viewTable tbody tr th {padding:10px 0 10px 20px; min-height:17px; font-weight:bold; color:#333; font-size:16px; font-weight:500; text-align:left; border-top:1px solid #ccc;}
+.bbsTable table.viewTable tbody tr td {padding:10px 0 10px 0px; font-size:14px; font-weight:500; vertical-align:middle; border-top:1px solid #ccc;}/*edit :: 20140519*/
+.bbsTable table.viewTable tbody tr td.title{padding:10px 0 10px 0; font-size:16px; font-weight:500; color:#333;}
+.bbsTable table.viewTable tbody tr td.line{border-left:1px solid #ccc; padding-left:15px; color:#333;}
+.bbsTable table.viewTable tbody tr td.rightHeadTd{text-align:left; padding-left:20px;}
+.bbsTable table.viewTable tbody tr td.linkTd a{color:#00549d; text-decoration:underline;}
+.bbsTable table.viewTable tbody tr td.viewContent {padding:0; line-height:24px; width:900px; font-weight:normal;}
+.bbsTable table.viewTable tbody tr td.viewContent .cont {padding:30px; color:#333; font-size:16px; font-weight:normal; line-height:30px;}
+
+
+
+/*고객의소리 접수 폼 페이지*/
+.bbsTable {}
+.bbsTable table.formTable {width:100%;border-collapse: collapse; border-top:2px solid #00549d; border-bottom:1px solid #636363;}
+.bbsTable table.formTable tbody tr th {min-height:20px; padding:14px 0 12px 15px; font-size:12pt; font-weight:600; vertical-align: middle; 
+	                                   color: #333; border-bottom:1px solid #ccc; border-right:1px solid #ccc;}
+.bbsTable table.formTable tbody tr td {min-height:20px; padding:14px 0 12px 15px; font-size:12pt; font-weight:400; vertical-align: middle; 
+	                                   color: #333; border-bottom:1px solid #ccc;}
+.bbsTable table.formTable tbody tr td label{padding-right:15px;}
+.bbsTable table.formTable tbody tr td .radio {vertical-align:-2px;}
+.bbsTable table.formTable tbody tr td.titleTd{padding:10px;}
+.bbsTable table.formTable tbody tr td .contTxtarea {margin-top:5px; height:150px;} 
+.bbsTable table.formTable tbody tr td .check{border:1px solid #ccc; width:18px; height:18px;}
+
+
+
+/* board paging */
+.paging {padding-top:30px; padding-bottom:20px; text-align:center; position:relative;}
+.paging a.num {display:inline-block;line-height:28px;padding:1px 12px;color:#333;text-decoration:none;}
+.paging a.num:hover, .paging a.num.on {padding:0 11px;color:#00549d; font-weight:700; border:1px solid #cecece;}
+
+
+
+/* board search_bottom 하단검색바*/
+.bbsSearch {padding-top:40px;text-align:center;}
+.bbsSearch input.text {width:200px; height:19px; padding:7px 5px; border:1px solid #cecece;}
+.bbsSearch a{height:19px; text-decoration:none;}
+/*검색버튼*/
+.graySmBtn {display:inline-block; padding:8px 16px; background:#555; font-size:15px; line-height:1; color:#fff;}
+
+/*게시판 하단 검색바 공통*/
+.bdSearch {margin-top:20px; padding:15px 0 16px; text-align:center;}
+.bdSearch .select {width:82px; height:30px;}
+.bdSearch .inputTxt {height:28px;}
+#key {width:238px; height:30px; padding:0 5px; border:1px solid #ccc;}
+.key {width:238px; height:30px; padding:0 5px !important; border:1px solid #ccc;}
+#keyField {min-width:74px;height:30px; margin-right:5px; color:#333; border:1px solid #ccc;}
+.keyField {min-width:74px;height:30px; margin-right:5px; color:#333; border:1px solid #ccc;}
+.btnSearch {width:73px; height:32px; padding:0 15px 0 14px; font-size:14px; font-weight:600; color:#fff !important; 
+	          line-height:32px; text-decoration:none !important; border:1px solid #ccc; background:#424242; padding-left:15px; cursor:pointer;}
+
+/*.imgR {overflow:hidden;}
+.imgR .img {float:right;display:inline;}
+
+.imgR2 {float:right;display:inline;}
+
+.imgType1 {overflow:hidden;margin-top:20px;}
+.imgType1 ul {}
+.imgType1 ul li {float:left;}*/
+
+/* 게시판 상단 검색바 공통*/
+.boardSearchSec {position:relative; margin-bottom:27px; padding:14px 0; text-align:center; border:1px solid #ccc; background:#f5f5f5;}
+.boardSearchSec fieldset {}
+/*.boardSearchSec fieldset select {width:120px; height:26px; margin-right:5px; padding:3px 3px;vertical-align:middle;}
+.boardSearchSec fieldset input {width:385px; border-right:none;vertical-align:middle;}
+.boardSearchSec fieldset a.graySmBtn {margin-left:-4px; padding:6px 10px;vertical-align:middle;line-height:12px;}
+.boardSearchSec fieldset a.whiteSmBtn { *position:relative; *top:6px; *left:-3px;}*/
+input.btnSearch03 {width:73px; height:30px; padding:0 10px 0 10px; font-size:13px; font-weight:600; color:#fff !important; 
+	          line-height:28px; text-decoration:none !important; border:1px solid #575757; background:#5d5d5d; padding-left:18px;}
+
+
+/* 게시판 테이블 상단 검색결과 텍스트 */
+.searchResult {/*float:left;*/ margin-bottom:6px; text-align:right; color:#111; font-weight:600;}
+.searchResult .txtGreenT {color:#00549d;}
+
+.topTable{position:relative; height:50px; margin:5px 0 23px 0;}
+.topTable h3.tit_list{float:left; font-size:30px; font-weight:400; color:#00549d; letter-spacing:-1pt; line-height:1;}
+.topTable p{position:absolute; top:36px; right:0; overflow:hidden;}
+
+
+/* 이전글 다음글  */
+.pageNavi {overflow:hidden; border-top:1px solid #ccc; width:100%;}
+.pageNavi dt,
+.pageNavi dd {float:left; line-height:40px; border-bottom:1px solid #ccc;}
+.pageNavi dt {width:10%; text-align:center; color:#333; font-size:16px; font-weight:500;}
+.pageNavi dd {padding-left:15px; font-size:13px; width:88.3%;}
+.pageNavi dd a {display:block; line-height:40px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; color:#333;}
+
+
+/*자원봉사자 신청등록 폼화면*/
+.volunteer {width:100%; margin:0px; padding:0px; border-collapse:collapse; 
+	        border-top:2px solid #00549d ; border-bottom:1px solid #cecece; border-collapse:collapse; font-size:14px;}
+.volunteer tbody tr th {margin:0px; padding:5px; height:30px; font-weight:600; 
+	                    border:1px solid #cecece; text-align:center;}
+.volunteer tbody tr td {margin:0px; padding:5px; height:30px; border:1px solid #cecece; vertical-align:middle;}
+.volunteer tbody tr td.titleTd{padding:10px;}
+.volunteer tbody tr td button {padding:8px; border:0 none; font-size:12px; margin-right:3px; margin-left:2px; 
+	                           background:#555; color:#fff; cursor:pointer; vertical-align:middle;}
+button.numberCheck {width:auto;}
+.volunteer tbody tr td .experience{margin-bottom:5px;}
+.volunteer tbody tr td .last{margin-bottom:0;}
+.volunteer tbody tr td .contTxtarea {margin-top:5px; width:100%; height:200px;}
+
+
+/*페이지내에 표테이블 공통*/
+.table-wrapper {position: relative; margin:20px 0;}
+.table-wrapper table.page {width:100%; border:1px solid #cecece; border-collapse:collapse;}
+.table-wrapper table.page thead tr th {padding:10px 0 10px 0; text-align:center; line-height:160%; background:#767676; font-weight:500;
+	                                   vertical-align:middle; border-left:1px solid #cecece; color:#fff; font-size:16px;}
+.table-wrapper table.page thead tr th.top{border-top:1px solid #cecece;}	                                   
+.table-wrapper table.page tbody tr th {padding:10px 0 10px 0; text-align:center; line-height:160%; background:#767676; font-weight:500;
+									   vertical-align:middle; border-bottom:1px solid #cecece; border-left:1px solid #cecece; color:#fff; font-size:16px;}
+.table-wrapper table.page tbody tr td{padding:10px 10px 10px 0; text-align:center; line-height:160%; vertical-align:middle;
+									  border-left:1px solid #cecece; border-top:1px solid #cecece; font-size:16px; color:#333;}
+.table-wrapper table.page tbody tr td.alignl{text-align:left; padding-left:20px;}
+.table-wrapper table.page tbody tr td.left{text-align:left; padding-left:20px;}
+
+.table-wrapper table.page tbody tr td ol {line-height:160%; list-style: decimal;}
+.table-wrapper table.page tbody tr td ol li{font-size:14px;}
+.table-wrapper table.page tbody tr td li span {font-weight:600;}
+
+.table-wrapper table.page tbody tr td ul{list-style:decimal;}
+.table-wrapper table.page tbody tr td ul li{font-size:15px; padding-left:20px; line-height:160%; }
+
+
+
+/*증병서발급안내_온라인지위확인 테이블*/
+table.ocsNoCheck{width:100%; border-top:solid 2px #00549d; border-collapse:collapse;}
+table.ocsNoCheck th,
+table.ocsNoCheck td{height:50px; font-weight:500; padding-left:25px; border-bottom:1px solid #ccc;}
+table.ocsNoCheck th{text-align:left; font-size:16px; border-right:1px solid #ccc;}
+
+
+/* 진료시간표 의료진*/
+
+/*진료시간표 테이블 프로그램 - 의료진, 전문진료센터*/
+.doctorTable {}
+.doctorTable .table-wrapper {position: relative; margin:20px 0; /*overflow-x: auto;*/}
+.doctorTable .table-wrapper table.tbTypeB {width:100%; border:1px solid #ccc; border-collapse:collapse;}
+.doctorTable .table-wrapper table.tbTypeB thead tr th {padding:10px 0 10px 0; text-align:center; line-height:160%; background:#767676; font-weight:500;
+	                                      vertical-align:middle; border-top:1px solid #ccc; border-left:1px solid #ccc; color:#fff; font-size:16px;}
+.doctorTable .table-wrapper table.tbTypeB tbody tr th {padding:10px 0 10px 0; text-align:center; line-height:160%; background:#767676; font-weight:500;
+									      vertical-align:middle; border-bottom:1px solid #ccc; border-left:1px solid #ccc; color:#fff; font-size:16px;}
+.doctorTable .table-wrapper table.tbTypeB tbody tr td{padding:10px 0 10px 0; text-align:center; line-height:160%; vertical-align:middle;
+									     border-left:1px solid #ccc; border-top:1px solid #ccc; font-size:16px; color:#333;}
+.doctorTable .table-wrapper table.tbTypeB tbody tr td.alignl{padding-left:8px; padding-right:8px; text-align:justify;}
+.doctorTable .table-wrapper table.tbTypeB tbody tr td.color02{color:red;}
+
+/*인쇄하기버튼*/
+.doctorTable .print {height:42px; padding:8px 10px 8px 35px; font-weight:500; color:#fff; line-height:42px; font-size:15px; letter-spacing:0.7px;
+	                 text-decoration:none !important; background:#e27d1c url(../../images/common/print_icon1.gif) no-repeat 35px center;}
+.doctorTable .print span{padding:0 35px;}
+
+/*진료시간표에 들어갈 원*/
+.point_one {width:20px; height:20px; border-radius:10px;  background:#00549d; text-indent:-9999px; font-size:0; text-align:center; margin:0 auto;
+	         -moz-border-radius:10px; 
+	         -webkit-border-radius:10px; 
+	         -ms-border-radius:10px;
+	         -khtml-border-radius:10px;
+	         -o-border-radius:10px;
+	         } 
+
+.point_choise{background:url(../../images/common/btn_figure.png) no-repeat 0 0; width:20px; height:20px; font-size:0; text-indent:-9999px; margin:0 auto;}
+
+/*-ms 마이크로소프트, -webkit 구글크롬, -moz 모질라 파이어폭스, -o 오폐라*/
+
+
+
+/* 컨텐츠 셀렉트박스 
+.comm_sel {display:inline-block;margin-right:5px;vertical-align:middle;}
+.comm_sel .jq_sel {display:block;position:relative;height:32px;background:url(../../images/common/bg_selbox.gif) no-repeat 0 0;font-size:11px}
+.comm_sel .jq_sel span {position:absolute;left:0;top:0;white-space:nowrap;height:32px;width:100%;_width:auto;line-height:32px;
+	                    text-align:left;text-indent:8px;color:#9c9daf;overflow:hidden;cursor:pointer}
+.comm_sel .jq_sel a.jqTransformSelectOpen {display:block;position:absolute;right:0px;width:28px;height:32px;
+	                                       background:url(../../images/common/bg_selbox.gif) no-repeat 100% 0}
+.comm_sel .jq_sel ul {overflow:auto;position:absolute;z-index:9999;top:31px;left:0px;max-height:300px;width:100%;list-style:none;
+	                  background-color:#3d3d45;border-top:solid 1px #18181a;border-bottom:solid 1px #18181a;
+	                  display:none;overflow:auto;overflow-y:auto;z-index:10;white-space:nowrap}
+.comm_sel .jq_sel li {border-right:solid 1px #18181a;border-left:solid 1px #18181a}
+.comm_sel .jq_sel ul a {display:block;padding:4px 2px 4px 8px;text-decoration:none;color:#9c9daf;text-align:left}
+.comm_sel .jq_sel ul a:hover {background-color:#212227}
+.comm_sel .jq_sel ul a.selected {}
+.comm_sel .jq_sel_hide {display:none}
+
+.comm_sel_type1 .jq_sel {height:24px;background-position:0 -40px}
+.comm_sel_type1 .jq_sel span {height:24px;line-height:25px}
+.comm_sel_type1 .jq_sel a.jqTransformSelectOpen {height:24px;background-position:100% -40px}
+.comm_sel_type1 .jq_sel ul {top:24px;background-color:#1e1f24;border-color:#17181a}
+.comm_sel_type1 .jq_sel li {border-color:#17181a}
+.comm_sel_type1 .jq_sel ul a:hover {background-color:#3d3d45}
+
+.comm_sel_type2 .jq_sel {height:24px;background-position:0 -70px}
+.comm_sel_type2 .jq_sel span {height:24px;line-height:25px;color:#555}
+.comm_sel_type2 .jq_sel a.jqTransformSelectOpen {height:24px;background-position:100% -70px}
+.comm_sel_type2 .jq_sel ul {top:24px;border-color:#b9b9b9;background-color:#fff;}
+.comm_sel_type2 .jq_sel li {border-color:#b9b9b9}
+.comm_sel_type2 .jq_sel ul a {color:#666;}
+.comm_sel_type2 .jq_sel ul a:hover {background-color:#eee}
+
+.comm_sel_type3 .jq_sel {height:32px;background-position:0 -100px;font-size:12px}
+.comm_sel_type3 .jq_sel span {height:32px;line-height:32px;color:#555}
+.comm_sel_type3 .jq_sel a.jqTransformSelectOpen {width:34px;height:32px;background-position:100% -100px}
+.comm_sel_type3 .jq_sel ul {top:31px;border-color:#b9b9b9;background-color:#fff;}
+.comm_sel_type3 .jq_sel li {border-color:#b9b9b9}
+.comm_sel_type3 .jq_sel ul a {color:#666;padding:5px 2px 5px 8px;}
+.comm_sel_type3 .jq_sel ul a:hover {background-color:#eee}
+
+.sel_dim .jq_sel {z-index:1!important;background-image:url(../../images/common/bg_selbox_dim.gif)}
+.sel_dim .jq_sel a.jqTransformSelectOpen {background-image:url(../../images/common/bg_selbox_dim.gif)}
+.sel_dim .jq_sel div span {filter:alpha(opacity=50);Opacity:0.5}
+.sel_dim .jq_sel ul {display:none!important}*/
+
+
+
+/*값이 한 개 : '상하좌우'           값이 두 개 : '상하' '좌우'
+값이 세 개 : '상' '좌우' '하'       값이 네 개 : '상' '우' '하' '좌'*/
+
+/*입력폼 태그 공통*/
+.inputTxt {line-height:25px; height:25px; padding:0 5px; border:1px solid #ccc; margin-right: 5px;}
+.selectText {padding:6px 3px 6px; border:1px solid #ccc; background:#fff;}
+.textarea {width:98%; border:1px solid #ccc;} 
+
+
+
+
+
+

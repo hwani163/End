@@ -1,0 +1,42 @@
+﻿@charset "utf-8";                        
+   /*css 문자셋 설정 html에 설정된 문자셋으로 설정*/
+
+* {margin:0; padding:0;}             
+   /*테그 전체 margin 과 padding 값을 0으로 초기화 한다.*/
+ 
+
+body, p, h1, h2, h3, h4, form,         
+ 
+fieldset, legend, ul, ul li, 
+
+dl, dt, dd, div
+ 
+{margin:0; padding:0;}                    
+/* "*" 가 적용되지않는브라우져일경우를 대비하여	모든 margin 과 padding 값을 0으로 초기화 한다.*/
+ 
+
+ul, ol{list-style:none;}                   
+ /* 리스트 테그의 기본 스타일 값을 초기화 한다.*/
+ 
+
+img, form, fieldset {                      
+/* 이미지 및 폼테그 값의 border값을 제거한다..*/
+ 
+   border:none;
+ 
+}
+ 
+
+a{                                             
+ /* 링크 클릭시 생기는 외곽 점선라인을 제거한다.*/
+ 
+   selector-dummy: expression(this.hideFocus=true);
+ 
+   color:#151E1E;text-decoration:none;
+ 
+}
+ 
+ 
+ 
+hr,h1,h2,h3{display:none;}          
+ /* 보이지 말하야할 구분선 및 테그들을 제거한다.*/

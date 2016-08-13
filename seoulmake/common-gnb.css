@@ -1,0 +1,88 @@
+@charset "euc-kr";
+body {font-family:"맑은 고딕","Malgun Gothic","돋움","Dotum","Arial","sans-serif";font-size:12px;color:#666;letter-spacing:-1px;background-color:transparent}
+body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, form, fieldset, input, table, tr, th, td, textarea, pre {margin: 0; padding: 0;}
+input, select {font-family:"맑은 고딕","Malgun Gothic","돋움","Dotum","Arial","sans-serif";}
+h1, h2, h3, h4, h5, h6{font-weight: normal; font-size: 12px;}
+em {font-style:normal;}
+ul, ol, li{list-style: none}
+fieldset, img {border: none}
+body a {color:#444;text-decoration: none;}
+body a:hover, body a:active,body a:focus {text-decoration: none;}
+pre {padding-top: 5px;}
+table {margin:0;padding:0;border-spacing:0;border-collapse:collapse;border:0;}
+td {text-align:left;}
+hr {display:none}
+caption, legend{
+	position:absolute;
+	width:0;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+	display: none;
+	text-indent:-9999px;
+	font-size:0;
+}
+#skipNavi {
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+	list-style: none;
+    font-size: 1.15em;	
+	top: -10.5em;
+    left: 0;
+    z-index: 99999;
+}
+#skipNavi a:active, #skipNavi a:focus {
+    position: absolute;
+	padding-top: 0.5em;
+    width: 100%;
+	height: 2em;
+    top: 10.5em;
+    /* left: 0; */
+	text-align: center;
+	color: #000;
+	font-weight:bold;
+	/* text-decoration: underline;*/
+    background: #fff;
+    border: 1px solid #475470;
+    outline: 0;
+}
+.invisible {
+	overflow:hidden;
+	visibility:hidden;
+	position:absolute;
+	width:0;
+	height:0;
+	font-size:0;
+}
+.common-gnb-wrap-wrap{width:100%;height:39px;}
+.common-gnb-wrap-wrap.type-b{border-bottom:0px solid #ddd;}
+.common-gnb-wrap-wrap .common-gnb-wrap{position:relative;width:100%;height:39px;text-align:center;margin:0 auto;}
+.common-gnb-wrap-wrap .common-gnb-wrap .logo{position:absolute;left:15px;top:9px;z-index:1;font-size:0px;}
+.common-gnb-wrap-wrap .common-gnb-wrap .slogan{position:absolute;right:15px;top:5px;z-index:1}
+.common-gnb-wrap-wrap .common-gnb-wrap .common-gnb{overflow:hidden;position:absolute;right:130px;top:10px;z-index:1;}
+.common-gnb-wrap-wrap .common-gnb-wrap .common-gnb.type-a{right:0px;}
+.common-gnb-wrap-wrap .common-gnb-wrap .common-gnb.type-b{position:relative;left:0px;overflow:hidden;width:100%;height:30px;}
+.common-gnb-wrap-wrap .common-gnb-wrap .common-gnb.type-b li.first{position:absolute;left:0px;top:0px;z-index:1;}
+.common-gnb-wrap-wrap .common-gnb-wrap .common-gnb.type-b li.last{position:absolute;right:0px;top:0px;z-index:1;}
+.common-gnb-wrap-wrap .common-gnb-wrap .common-gnb.type-m{right:0px;}
+.common-gnb-wrap-wrap .common-gnb-wrap .common-gnb.type-m span{width:16px;height:16px;padding-left:0px;margin-left:5px;}
+.common-gnb-wrap-wrap .common-gnb-wrap .common-gnb.type-m span a{width:16px;height:16px;text-indent:-99999px;display:block;}
+.common-gnb-wrap-wrap .common-gnb-wrap .common-gnb.type-other span{width:16px;height:18px;padding-left:0px;background:none;}
+.common-gnb-wrap-wrap .common-gnb-wrap .common-gnb.type-other span a{text-indent:0px}
+.common-gnb-wrap-wrap .common-gnb-wrap .common-gnb li{float:left;font-size:12px;text-align:center;margin:0px 10px;}
+.common-gnb-wrap-wrap .common-gnb-wrap .common-gnb li img{vertical-align:middle;margin-right:2px;}
+.common-gnb-wrap-wrap .common-gnb-wrap .common-gnb li a{color:#333;}
+.common-gnb-wrap-wrap .common-gnb-wrap .common-gnb li span{display:inline-block;margin-left:10px;padding-left:20px;background:url(/v2013/img/icon-homepage.png) no-repeat left center;}
+.common-gnb-wrap-wrap .common-gnb-wrap .common-gnb li span a{color:#008bd0;}
+.common-gnb-wrap-wrap .common-gnb-wrap .common-gnb.type-c{right:10px;top:8px;}
+.common-gnb-wrap-wrap .common-gnb-wrap .common-gnb.type-c li a{color:#fff;}
+.common-gnb-wrap-wrap .common-gnb-wrap .common-gnb.type-c li span{background:url(/v2013/img/icon-homepage-blue.png) no-repeat left center;}
+.common-gnb-wrap-wrap .common-gnb-wrap .common-gnb.type-c li span a{color:#75CDF9;}
+.mers-banner-wrap{position:relative;width:100%;padding:15px 0px;border-bottom:1px solid #ddd;overflow:hidden;height:80px;}
+.mers-banner-wrap .mers-banner{overflow:hidden;position:absolute;left:50%;margin-left:-675px;width:1350px;}
+.mers-banner-wrap .mers-banner li{float:left;margin-right:30px;}
+.mers-banner-wrap .mers-banner li.last{margin-right:0px;}	
+#iFrameResizer{height:8980px}
+body.ie9 #iFrameResizer{height:7700px}
+body.ie8 #iFrameResizer{height:7700px}

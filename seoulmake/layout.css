@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+#wrap {background:url(../../images/common/wrap_bg.gif) repeat-x 0 0;}
+
+#header {position:relative;width:1200px;height:105px;margin:0 auto;z-index:10;}
+#header:after {content: ".";display:block;height: 0;clear:both;visibility:hidden;}
+/* Hides from IE-mac \*/
+* html #header {height: 1%;}
+/* End hide from IE-mac */
+
+	#header .top_rolling {padding:13px 0 7px 32px;background:url(../../images/common/top_rolling_icon.png) no-repeat 0 13px;}
+	#header .top_rolling a {font-size:12px;}
+	#header .logo {position:absolute;left:0;top:45px;}
+	#header .header_side {padding-top:13px;color:#c2bfbd;}
+	#header .header_side a {padding:0 5px;color:#595959;}
+	#header .header_visual {padding:16px 0 0 138px;}
+
+	#header .topSearch {position:absolute;right:0;top:5px;width:260px;height:33px;border:1px solid #b2cbe1;}
+	#header .topSearch .text {float:left;width:214px;height:33px;line-height:33px;padding:0 5px;border:0;}
+
+	#gnb {position:absolute;left:150px;top:45px;width:1050px;height:60px;}
+	#gnb ul {position:relative;}
+	#gnb ul li {position:relative;float:left;width:174px;text-align:center;border-right:1px solid #3376b1;}
+	#gnb ul li a.mmenu {display:block;height:60px;line-height:60px;color:#fff;font-size:18px;text-decoration:none;}
+	#gnb ul li.on a.mmenu,
+	#gnb ul li a.mmenu:hover {background:#3887cb;}
+	#gnb ul li ul {display:none;position:relative;width:170px;padding:10px 0;border:3px solid #3887cb;background:#fff;}
+	#gnb ul li ul li {float:none;width:auto;height:24px;padding:2px 0;color:#666666;text-align:left;border-right:none;}
+	#gnb ul li ul li a {display:block;color:#666666;font-size:13px;font-weight:bold;padding:3px 10px 3px 10px;text-decoration:none;}
+	#gnb ul li ul li a:hover {color:#fff;background:#00549d;}
+
+#container {position:relative;z-index:0;min-height:350px;}
+#container:after {content: ".";display:block;height:0;clear:both;visibility:hidden;}
+/* Hides from IE-mac \*/
+* html #container {height: 1%;}
+/* End hide from IE-mac */
+
+
+#footer {position:relative;width:100%;margin-top:50px;background:#0d3f6b;}
+	#footer_menu {position:relative;overflow:hidden;width:1200px;margin:0 auto;padding:20px 0;}
+	#footer_menu dl {float:left;width:160px;margin-left:40px;}
+	#footer_menu dt a {color:#fff;font-size:15px;}
+	#footer_menu dd {padding-top:7px;}
+	#footer_menu dd a {color:#fff/*88a3bb*/;}
+	#footer_sns {position:relative;overflow:hidden;width:100%;height:40px;margin:0 auto;border:1px solid #607e99;border-width:1px 0;background:#fff/*3d6589*/;}
+	#footer_sns .snsarea {position:relative;overflow:hidden;width:1200px;margin:0 auto;}
+	#footer_sns .snsarea .sns {float:left;}
+	#footer_sns .snsarea .sns a {display:inline-block;float:left;width:40px;height:28px;padding-top:10px;text-align:center;vertical-align:middle;border:1px solid #8ba3b8;background:#7894ad;}
+	#footer_sns .snsarea .r {float:right;}
+	#footer_sns .snsarea .r .top_rolling {float:left;padding:0px 0 7px 32px;/* background:url(../../images/common/top_rolling_icon.png) no-repeat 0 13px; */}
+	#footer_sns .snsarea .r .top_rolling a {font-size:12px;}
+	#footer_sns .snsarea .r .site {float:left;margin:10px 0 0 10px;}
+	#footer_sns .snsarea .r .site select {width:250px;font-size:12px;}
+	#footer_area {position:relative;width:1200px;margin:0 auto;padding-bottom:20px;}
+	#footer_area .footer_link {padding:20px 0 35px;}
+	#footer_area .footer_link a {padding:0 30px 0 10px;color:#fff/*6989a5*/;}
+	#footer_area .footer_link a.od1 {color:#e27d1c;font-weight:bold;}
+	#footer_area .logo {float:left;width:200px;}
+	#footer_area .hotline {position:absolute;right:0;top:16px;}
+	#footer_area .hotline .control {position:absolute;z-index:10;left:12px;top:9px;}
+	#footer_area .hotline .banner_roll {overflow:hidden;position:relative;z-index:0;width:270px;height:110px;}
+	#footer_area .address {float:left;width:720px;padding:10px 0 0 0;font-size:12px;color:#fff/*6989a5*/;}
+	#footer_area .address span.space {padding-left:20px;}
+	#footer_area .copyright {float:left;width:720px;padding:1px 0 0 0;font-size:12px;color:#fff/*6989a5*/;}
+	#footer_area .wa_logo {position:absolute;bottom:68px;right:382px;}

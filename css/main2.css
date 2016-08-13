@@ -1,0 +1,116 @@
+﻿*{margin:0; padding: 0; border: 0; font-family:'Nanum Gothic','나눔고딕','돋움',Dotum,'굴림',Gulim,Tahoma, Geneva, sans-serif,verdana; }
+html{overflow-y: scroll; }
+.fl{float: left;}
+.fr{float: right;}
+.cl{clear: left;}
+.cr{clear: right;}
+#wrap{background-image: url('../seoulmakesub.png');  background-repeat: no-repeat; width: 1600px; height:2092px;  margin: 0 auto;}
+#small_menu{width: 1600px; height: 34px; border-bottom: 1px solid #dddddd;}
+#home{margin-right:186px; height: 34px; overflow: hidden;}
+#home img{border-left: 1px solid #dddddd; border-right: 1px solid #dddddd;}	
+#home_menu{text-align: center; font-size: 12px;}
+#home_menu li{list-style: none; height: 34px; line-height: 34px; border-right: 1px solid #dddddd; color: #AAAAAA; font-weight: bold;}
+#home_menu li:hover{text-decoration: underline;}
+#menu1{width: 65px;}
+#menu2{width: 90px;}
+#menu3{width: 110px; }
+
+/* section */
+#section{/* background-color: #26C9FF;*/ width: 1280px; height: 1522px; margin: 0 auto; position: relative;}	
+#main_title{widt,ah: 215px; height: 110px; position: absolute;  left: 24px; top: 30px;
+border-bottom: 3px solid #01559E;}
+.title_p{font-size: 38px; margin-top: 10px; letter-spacing: -1px; font-weight: bold; color: #aaaaaa;}
+.title_s{font-size: 38px; margin-top: 10px; letter-spacing: -1px; font-weight: bold; color: #4C74B0;}
+.title_s2{font-size: 12px; color: #aaaaaa; font-weight: bold; letter-spacing: -1px;}
+#main_title_bottom{background-color: #ccff99; opacity: 0.5; width: 217px; height: 950px; position: absolute; left: 20px; top: 160px; }
+#main_menu1{background-color: #4c79ff; width:217px; height: 33px; border-bottom: 1px dashed #aaaaaa;}
+
+.botMenu1 li{
+	font-size: 15px;
+    font-weight: bold;
+    letter-spacing: -0.5pt;
+    padding: 0px 0 9px;
+    border-bottom: 1px dashed #e2e1e1;
+    background: url(../images/left_mmenu_bul_off.gif) no-repeat 0 18px;
+}
+
+.botMenu2{
+    margin-top: 5px;
+    padding: 10px 0 5px 11px;
+    border-top: 1px dashed #dadada;
+    display : none;
+}
+
+.botMenu2 li{
+	  padding: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 28px;
+    color: #505050;
+    background: none;
+    background: url(../images/left_smenu_bul_on.gif) no-repeat 0 10px;
+	padding: 0 0 0 14px;
+    border-bottom: 0;
+}
+
+.botMenu3{
+	margin-top: 5px;
+    padding: 10px 0 5px 11px;
+    border-top: 1px dashed #dadada;
+    display : none;
+}
+.botMenu3 li a{
+	padding: 0;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #505050;
+    background: none;
+}
+
+li {list-style: none}
+
+#menuClick1:checked ~ ul.menuShow1{
+	display : block;
+}
+#menuClick1_1:checked ~ ul.menuShow1_1{
+	display : block;
+}
+#menuClick1_2:checked ~ ul.menuShow1_2{
+	display : block;
+}
+#menuClick2:checked ~ ul.menuShow2{
+	display : block;
+}
+#menuClick2_1:checked ~ ul.menuShow2_1{
+	display : block;
+}
+#menuClick3:checked ~ ul.menuShow3{
+	display : block;
+}
+#menuClick3_1:checked ~ ul.menuShow3_1{
+	display : block;
+}
+#menuClick4:checked ~ ul.menuShow4{
+	display : block;
+}
+#menuClick5:checked ~ ul.menuShow5{
+	display : block;
+}
+
+input[type=checkbox]{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

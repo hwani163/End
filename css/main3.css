@@ -1,0 +1,17 @@
+﻿*{margin:0; padding: 0; border: 0; font-family:'Nanum Gothic','나눔고딕','돋움',Dotum,'굴림',Gulim,Tahoma, Geneva, sans-serif,verdana; }
+html{overflow-y: scroll; }
+.fl{float: left;}
+.fr{float: right;}
+.cl{clear: left;}
+.cr{cleat: right;}
+
+#wrap{background-image: url('../seoulmakesub2.png');  background-repeat: no-repeat; width: 1600px; height:2092px;  margin: 0 auto;}
+#small_menu{width: 1600px; height: 34px; border-bottom: 1px solid #dddddd;}
+#home{margin-right:186px; height: 34px; overflow: hidden;}
+#home img{border-left: 1px solid #dddddd; border-right: 1px solid #dddddd;}	
+#home_menu{text-align: center; font-size: 12px;}
+#home_menu li{list-style: none; height: 34px; line-height: 34px; border-right: 1px solid #dddddd; color: #AAAAAA; font-weight: bold;}
+#home_menu li:hover{text-decoration: underline;}
+#menu1{width: 65px;}
+#menu2{width: 90px;}
+#menu3{width: 110px; }
